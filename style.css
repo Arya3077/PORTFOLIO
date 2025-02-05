@@ -1,9 +1,9 @@
 *{
     margin: 0px;
     padding: 0px;
-
-   
 }
+   
+
 
 body{
     min-height: 100vh;
@@ -11,11 +11,13 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 nav{ 
     background-color: white;
     box-shadow: 3px 3px 5px rgba(red, green, blue, alpha);
-    height: 50px;
+    display: flex;
+    
     
 }
 
@@ -32,6 +34,10 @@ nav li{
     height: 50px;
 }
 
+.n{
+    display: flex;
+}
+
 nav a{
     color: black;
     text-decoration: none;
@@ -39,6 +45,8 @@ nav a{
     align-items: center;
     padding: 0  30px;
     height: 100%;
+    font-size: larger;
+    font-weight: 600;
 }
 
 nav a:hover{
@@ -58,7 +66,7 @@ nav li:first-child{
     height: 100vh;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.8);
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -73,12 +81,34 @@ nav li:first-child{
     max-height: 100%;
 }
 
-/*#menu{
+#menu{   height: 30px;
+    width: 30px;
         display: none; 
         cursor: pointer;
         padding: 10px;
-        transition: transform 0.3s ease;} */
+        transition: transform 0.3s ease;} 
+
+@media only screen and ( max-width:670px){
+    #menu{
+        display: flex;
+
+    }
+
+    nav a {
+       display: none;
+    }
+
+    .sidebar a{
+        display: flex;
+    }
+
+    #menu{
+        display: flex;
+    }
+
     
+    
+}
 
 
 
@@ -87,5 +117,13 @@ nav li:first-child{
 #menu:hover{
     background-color: #f0f0f0;
 }
-   
+
+#X{
+    height: 30px;
+    width: 30px;
+    top: 0;
+    right:0 ;
+
+}
+
 
