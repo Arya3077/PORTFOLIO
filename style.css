@@ -6,13 +6,32 @@
 
 
 body{
-    min-height: 100vh;
-    background-image:url("lap.jpg");
+   min-height: 100vh;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#intro{
+    position: absolute;
+    right: 0px;
+    width: 800px;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: opacity 0.3s ease;
+
+}
+
+#intro:hover{
+    opacity: 0.5;
+
+}
+
+
 nav{ 
     background-color: white;
     box-shadow: 3px 3px 5px rgba(red, green, blue, alpha);
@@ -66,7 +85,7 @@ nav li:first-child{
     height: 100vh;
     width: 300px;
     background-color: rgba(255, 255, 255, 0.8);
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
@@ -124,6 +143,29 @@ nav li:first-child{
     top: 0;
     right:0 ;
 
+
+}
+
+#d{
+    height: 30px;
+    width: 30px;
+    
+    margin-right: 5px;
+   
+}
+
+#d:hover{
+    background-color: #f0f0f0;
+}
+
+body dark-mode{
+    background-color: black;
+    color: white;
+}
+
+nav dark-mode{
+    background-color: black;
+    color: white;
 }
 
 
