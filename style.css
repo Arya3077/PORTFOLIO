@@ -102,7 +102,7 @@ nav li:first-child{
 
 #menu{   height: 30px;
     width: 30px;
-        display: none; 
+        display: flex; 
         cursor: pointer;
         padding: 10px;
         transition: transform 0.3s ease;} 
@@ -124,6 +124,9 @@ nav li:first-child{
     #menu{
         display: flex;
     }
+    #X{
+        display: none;
+    }
 
     
     
@@ -142,14 +145,15 @@ nav li:first-child{
     width: 30px;
     top: 0;
     right:0 ;
+    display: flex;
 
 
 }
 
-#d{
+#d {
     height: 30px;
     width: 30px;
-    
+    cursor: pointer;
     margin-right: 5px;
    
 }
