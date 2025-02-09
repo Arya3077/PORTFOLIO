@@ -155,11 +155,21 @@ nav li:first-child{
     width: 30px;
     cursor: pointer;
     margin-right: 5px;
-   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
 }
 
-#d:hover{
-    background-color: #f0f0f0;
+
+
+#d svg{
+    fill: var(--primary color)
+}
+
+#d svg:last-child{
+    display: none;
 }
 
 body dark-mode{
@@ -167,7 +177,26 @@ body dark-mode{
     color: white;
 }
 
-nav dark-mode{
+nav darkmode{
+    background-color: black;
+    color: white;
+
+}
+
+.darkmode{
+   background-color: black;
+   
+}
+
+.darkmode #d svg:first-child{
+    display: none;
+}
+
+.darkmode #d svg:last-child{
+    display: block;
+}
+
+.darkmode{
     background-color: black;
     color: white;
 }

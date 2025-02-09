@@ -17,10 +17,11 @@ x.addEventListener("click",()=>{
     sidebar.style.display="none";})
 
 d.addEventListener("click",()=>{
-    if (window.getComputedStyle(body).backgroundColor ){
+    const currentbackgroundColor=window.getComputedStyle(body).backgroundColor;
+    if (currentbackgroundColor==="white" ){
         console.log("button was clicked");
         body.style.background="black";
-    }else{
+    }else {
         body.style.background="white"
          body.style.color="black"
     }

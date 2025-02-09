@@ -87,5 +87,10 @@ nav li:first-child{
 #menu:hover{
     background-color: #f0f0f0;
 }
+
+.darkmode{
+    background-color: black;
+    color: white;
+}
    
 
