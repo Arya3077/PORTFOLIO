@@ -16,15 +16,7 @@ menu.addEventListener("click",()=>{
 x.addEventListener("click",()=>{
     sidebar.style.display="none";})
 
-d.addEventListener("click",()=>{
-    const currentbackgroundColor=window.getComputedStyle(body).backgroundColor;
-    if (currentbackgroundColor==="white" ){
-        console.log("button was clicked");
-        body.style.background="black";
-    }else {
-        body.style.background="white"
-         body.style.color="black"
-    }
-    
-})
-
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
