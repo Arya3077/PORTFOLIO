@@ -260,6 +260,10 @@ nav darkmode{
     cursor: pointer;
 }
 
+#s:hover{
+    border-radius:solid  2px;
+}
+
 .skills{
     
     display: flex;
@@ -291,6 +295,8 @@ nav darkmode{
     
 }
 
+
+
 .des{
     padding-top: 60px;
     font-weight: 500;
@@ -312,9 +318,12 @@ nav darkmode{
     margin-top: 200px;
     background-color: #494949;
     color: #f0f0f0;
-    height: 300px;
+    height: 10px;
     text-align: center;
     padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .c{
@@ -325,6 +334,14 @@ nav darkmode{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
+.i{
+   
+  
+}
 
