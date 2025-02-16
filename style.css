@@ -274,4 +274,57 @@ nav darkmode{
     padding-top: 100PX;
 }
 
+.project{
+    background-color: #ece8d9;
+    height: 800px;
+    color: #494949;
+    text-align: center;
+}
+
+.pro{
+    height: 400px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+.des{
+    padding-top: 60px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.p{padding-top: 100px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.p1{
+    padding-top: 40px;
+
+}
+ 
+
+.contact{
+    margin-top: 200px;
+    background-color: #494949;
+    color: #f0f0f0;
+    height: 300px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.c{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
