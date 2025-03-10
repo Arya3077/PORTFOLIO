@@ -39,7 +39,12 @@ nav{
     box-shadow: 3px 3px 5px rgba(red, green, blue, alpha);
     display: flex;
     color: white;
+    position: fixed;
     
+}
+.navbar{
+    position: fixed;
+    background-color: #494949;
 }
 
 nav ul{
